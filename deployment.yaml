@@ -11,6 +11,7 @@ spec:
       labels:
         app: k8s-web-hello
     spec:
+      replicas: 5
       containers:
       - name: k8s-web-hello
         image: nginx:latest
